@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Debug</title>
+</head>
+<body>
+	<script src="../build/build.js"></script>
+	<script>
+	  var trace = require('trace')('debug');
+	  var debug = require('debug');
+
+	  setInterval(function() {
+	  	trace('hello world');
+	  }, 1000);
+	</script>
+</body>
+</html>

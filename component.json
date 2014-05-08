@@ -1,0 +1,16 @@
+{
+  "name": "debug",
+  "repo": "bredele/debug",
+  "description": "console log decorator for trace",
+  "version": "0.0.0",
+  "keywords": [],
+  "dependencies": {
+    "bredele/trace" : "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ]
+}
