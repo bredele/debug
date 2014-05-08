@@ -34,11 +34,7 @@ function debug() {
   	  + ' '
   	  + fmt
   	  + ' +' + debug.humanize(ms);
-
-  	window.console
-  	  && console.log
-  	  && Function.prototype.apply.call(console.log, console, arguments);
-
+  	console.log(fmt);
   });
 }
 
